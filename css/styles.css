@@ -28,18 +28,69 @@ body {
 .nav-links > a {
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
-    color: #f4428f;
+    color: #479b48;
 }
 
 nav {
-    background-color: rgba(256, 256, 256, 0.7);
+    background-color: rgb(256, 256, 256);
 }
 
 .navbar {
-    border-bottom: 2px solid #333333;
-}
-
-#navigation {
-    margin-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
 }
 /* navbar */
+
+/* leroy */
+#index {
+    background-image:url(../images/bg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;    
+}
+
+#intro-name {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #ffffff;
+    margin-left: 35px;
+    margin-right: 25px;
+}
+/* leroy */
+
+/* about */
+#about-me {
+    background-color: #b53434;
+}
+
+#about-title {
+    background-color: #b53434;
+    color: #ffffff;
+}
+
+#about-me > .row {
+    min-height: 100%;
+}
+/* about */
+
+/* projects */
+#projects {
+    background-color: #4369a8;
+}
+
+#projects-title {
+    background-color: #4369a8;
+    color: #ffffff;
+}
+/* projects */
+
+/* contact */
+#contact-me {
+    background-color: #f4428f;
+}
+
+#contact-title {
+    background-color: #f4428f;
+    color: #ffffff;
+}
+/* contact */
