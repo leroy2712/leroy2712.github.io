@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+#index, #about-me, #projects, #contact-me {
+    padding-top: 80px;
+    min-height: 100%; 
+}
+
+.heading {
+    font-family: 'Slabo 27px', serif;
+}
+
+/* navbar */
+.nav-links {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.nav-links > a {
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    color: #f4428f;
+}
+
+nav {
+    background-color: rgba(256, 256, 256, 0.7);
+}
+
+.navbar {
+    border-bottom: 2px solid #333333;
+}
+
+#navigation {
+    margin-bottom: 10px;
+}
+/* navbar */
