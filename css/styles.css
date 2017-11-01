@@ -66,10 +66,29 @@ nav {
 #about-title {
     background-color: #b53434;
     color: #ffffff;
+    margin-top: 80px;
 }
 
 #about-me > .row {
     min-height: 100%;
+}
+
+.my-image {
+    border: 5px solid #ffffff;
+    -webkit-transform:rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.personal-statement {
+    margin-top: 100px;
+    font-size: 1.4em;
+    color: #ffffff;
+}
+.proficiency {
+    font-weight: 800;
 }
 /* about */
 
@@ -80,6 +99,11 @@ nav {
 
 #projects-title {
     background-color: #4369a8;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.app-type {
     color: #ffffff;
 }
 /* projects */
@@ -92,5 +116,29 @@ nav {
 #contact-title {
     background-color: #f4428f;
     color: #ffffff;
+    margin-bottom: 50px;
+}
+
+#subject, #email, #comment {
+    border-radius: 0px;
+    font-size: 1.3em;
+}
+
+#subject, #email, #contact-btn {
+    height: 50px;
+}
+
+#contact-btn {
+    width: 80%;
+    font-size: 1.4em;
+    background-color: #333333;
+    border: 1px solid #333333;
+    color: #f4428f;
+    font-weight: 600;
+}
+
+#contact-details {
+    color: #ffffff;
+    font-size: 1.3em;
 }
 /* contact */

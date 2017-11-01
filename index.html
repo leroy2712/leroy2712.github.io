@@ -74,8 +74,31 @@
         <div class="row">
             <div class="col-sm-6" id="about-title">
                 <h1 class="text-center">About Me</h1>
+                <br>
+                <br>
+                <div class="text-center">
+                    <img src="images/leroy.jpg" class="img-circle my-image" alt="Leroy Omondi" height="250" width="250">
+                </div>
             </div>
-            <div class="col-sm-6"></div>
+            <div class="col-sm-6">
+                <div class="row personal-statement">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <div class="text-left">
+                            <p>Hi! My name is Leroy and I'm a Nairobi-based programmer who has a strong passion for design.
+                                I can tell you all about how good my work is, but I would rather you make that judgement
+                                for yourself. Click on "Projects" at the top to explore my work...
+                            </p>
+                            <h2>Have Fun!</h2>
+                            <br><br>
+                            <h2>Skills</h2>
+                            <h4><span class="proficiency">Good</span>: Java, JavaScript, Android, jQuery, Postgres, MySQL, Angular4, JSON, BootStrap, HTML5, CSS</h4>
+                            <h4><span class="proficiency">Moderate Experience</span>: Java Spark, EmberJS, PHP, Node.js</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- about me -->
@@ -84,10 +107,59 @@
     <!-- projects -->
     <div class="container-fluid" id="projects">
         <div class="row">
-            <div class="col-sm-6"></div>
-            <div class="col-sm-6" id="projects-title">
-                <h1 class="text-center">Projects</h1>
+            <div id="projects-title">
+                <h1 class="text-center">Applications</h1>
             </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div class="row">
+                    <h3 class="text-center app-type">Web</h3>
+                    <h5 class="text-center app-type">(Hover On Image To View Details)</h5>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="images/js/price.png" class="img-responsive" width="250" height="250" data-toggle="tooltip" title="An application that aggregates the prices of goods across the main supermarket branches in Kenya. Built on the EmberJS Framework.">
+                                <div class="text-center description">
+                                    <h3>SupaPrice</h3>
+                                    <a class="btn btn-default" href="https://supaprice.herokuapp.com/" target="_blank">Explore</a>
+                                    <a class="btn btn-success" href="https://github.com/leroy2712/SupaPrice" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="images/js/kenya.png" class="img-responsive" width="250" height="250" data-toggle="tooltip" title="An application that is all about Kenya. Built on vanilla JavaScript and basic web technologies.">
+                                <div class="text-center description">
+                                    <h3>Kenya</h3>
+                                    <a class="btn btn-default" href="https://leroy2712.github.io/kenya/" target="_blank">Explore</a>
+                                    <a class="btn btn-success" href="https://github.com/leroy2712/kenya" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="images/js/pig.png" class="img-responsive js-project" width="250" height="250" data-toggle="tooltip" title="A two-player Pig Dice Game built on JavaScript and has a cool and appealing UI.">
+                                <div class="text-center description">
+                                    <h3>PigDice</h3>
+                                    <a class="btn btn-default" href="https://leroy2712.github.io/pigDice/" target="_blank">Explore</a>
+                                    <a class="btn btn-success" href="https://github.com/leroy2712/pigDice" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="images/js/garbage.png" class="img-responsive js-project" width="250" height="250" data-toggle="tooltip" title="Toa Taka is a web application that helps people crowd-fund trash collection. It is built on basic web technologies (HTML, CSS, JavaScript).">
+                                <div class="text-center description">
+                                    <h3>ToaTaka</h3>
+                                    <a class="btn btn-default" href="https://okwonks.github.io/toa_taka/index.html" target="_blank">Explore</a>
+                                    <a class="btn btn-success" href="https://github.com/Okwonks/toa-taka" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
         </div>
     </div>
     <!-- projects -->
@@ -96,10 +168,52 @@
     <!-- contact me -->
     <div class="container-fluid" id="contact-me">
         <div class="row">
-            <div class="col-sm-6" id="contact-title">
+            <div id="contact-title">
                 <h1 class="text-center">Contact Me</h1>
             </div>
-            <div class="col-sm-6"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="text-center">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="E-Mail">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="7" id="comment" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" id="contact-btn">SEND MESSAGE</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="text-center" id="contact-details">
+                            <address>
+                                Leroy Omondi
+                                <br> (+254) 708 352 975
+                                <br> leroyomondi@gmail.com
+                                <br> Nairobi
+                                <br> Kenya
+                            </address>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <a href="https://github.com/leroy2712" data-toggle="tooltip" title="View My Work on GitHub" target="_blank">
+                                    <img class="img-responsive" src="images/github.png">
+                                </a>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="http://www.linkedin.com/in/leroyomondi" data-toggle="tooltip" title="View My LinkedIn" target="_blank">
+                                    <img class="img-responsive" src="images/linkedin.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- contact me -->
