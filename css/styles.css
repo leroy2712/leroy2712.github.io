@@ -5,7 +5,7 @@ html, body {
 
 body {
     font-family: 'Dosis', sans-serif;
-    overflow:hidden
+    overflow:hidden;
 }
 
 #index, #about-me, #projects, #contact-me {
